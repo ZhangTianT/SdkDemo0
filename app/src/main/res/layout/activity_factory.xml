@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff8d29"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_gamecenter"
+            style="@style/RadioGroupButtonStyle"
+            android:drawableTop="@drawable/map_click"
+            android:text="游戏中心" />
+
+        <RadioButton
+            android:id="@+id/rb_giftcenter"
+            style="@style/RadioGroupButtonStyle"
+            android:drawableTop="@drawable/jpush_click"
+            android:text="礼包中心" />
+
+        <RadioButton
+            android:id="@+id/rb_tradecenter"
+            style="@style/RadioGroupButtonStyle"
+            android:drawableTop="@drawable/map_click"
+            android:text="交易中心" />
+
+        <RadioButton
+            android:id="@+id/rb_accountscenter"
+            style="@style/RadioGroupButtonStyle"
+            android:drawableTop="@drawable/jpush_click"
+            android:text="帐号中心" />
+
+    </RadioGroup>
+
+</LinearLayout>

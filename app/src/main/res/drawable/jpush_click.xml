@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 设置RadioButton在未点击、点击及选中的时候的图片显示，以与其他的RadiosButton区分 -->
+    <item android:drawable="@mipmap/jpush_true" android:state_pressed="true"/>
+    <item android:drawable="@mipmap/jpush_true" android:state_checked="true"/>
+    <item android:drawable="@mipmap/jpush_false"/>
+    <!-- 把默认值放在最后，否则会一直保持在默认状态无法改变 -->
+</selector>
